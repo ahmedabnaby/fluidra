@@ -10,9 +10,6 @@
         "production": "mix --production",
         "postinstall": "npm run prod"
     },
-    "engines": {
-    "node": "0.10.x"
-    },
     "devDependencies": {
         "@babel/preset-react": "^7.13.13",
         "axios": "^0.21",
@@ -31,5 +28,8 @@
     "dependencies": {
         "react-burger-menu": "^3.0.6",
         "react-responsive-carousel": "^3.2.21"
-    }
+    },
+    "engines": {
+        "node": "0.10.x"
+      }
 }
