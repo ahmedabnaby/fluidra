@@ -1,0 +1,351 @@
+ul li a
+{
+    color: white !important;
+    font-size: 17px !important;
+    font-weight: 300 !important;
+}
+.banner-layer h3
+{
+    color: white !important;
+    font-size: 40px !important;
+    font-weight: 400 !important;
+}
+.banner-layer h5
+{
+    position: relative;
+    top: 50px;
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: 200 !important;
+    letter-spacing: normal !important;
+    line-height: 20px !important;
+    text-align: center !important;
+    width: 45%;
+    text-transform: none !important;
+}
+.card_custom_margin
+{
+    position: relative;
+    top: 70px;
+    border-radius: 8px !important;
+}
+.card
+{
+    position: relative;
+    left: 15% !important;
+    width: 190px !important;
+    height: 188px !important;
+    transition: 0.3s;
+}
+.card:hover
+{
+    background-color: rgb(71, 255, 102) !important;
+}
+.card-body img
+{
+    position: relative;
+    top: 25px;
+    left: 30% !important;
+    width: 66px !important;
+}
+.card-body h2
+{
+    position: relative;
+    top: 25px;
+    left: 0% !important;
+    top: 55px !important;
+    color: #707070;
+    font-family: "Roboto Slab";
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+}
+.section2_img
+{
+    padding: 5px;
+    width: 50% !important;
+    margin-left: 350px;
+}
+.subtitle
+{
+    font-size: 35px !important;
+    font-weight: normal !important;
+    width: 70% !important;
+}
+.about-section
+{
+  width: 130% !important;
+}
+.btn-custom
+{
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 6px !important;
+  background-color: #083643 !important;
+  color: #fff !important;
+}
+.feature-boxes-container h1
+{
+  font-family: "Roboto Slab";
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  /* Text style for "Lorem ipsu" */
+  font-style: normal;
+  letter-spacing: normal;
+}
+.feature-boxes-container h3
+{
+  padding-top: 55px;
+  padding-left: 275px;
+  padding-right: 275px;
+  padding-bottom: 55px;
+  font-family: "Roboto Slab";
+  font-weight: 200;
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 35px;
+  text-align: center;
+  /* Text style for "Lorem ipsu" */
+  font-style: normal;
+  letter-spacing: normal;
+}
+.feature-boxes-container h5
+{
+  padding-top: 5px;
+  position: relative;
+  top: 55px;
+}
+.custom_indicators
+{
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  width: 35% !important;
+}
+.custom_indicators_3
+{
+  position: relative;
+  top: -26px;
+}
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 125px;
+    right: 1%;
+    top: 5px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #fff;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+      top: 0;
+      left: 0;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+      position: fixed;
+      top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    left: 0;
+  }
+@media screen and (max-width:767px)
+{
+    ul li a
+    {
+        font-size: 12px !important;
+    }
+    .banner-layer h3
+    {
+        position: relative;
+        top: 0px;
+        font-size: 40px !important;
+    }
+    .banner-layer h5
+    {
+        position: relative;
+        top: 15px;
+        font-size: 18px !important;
+        width: 90%;
+    }
+    .card_custom_margin
+    {
+        position: relative;
+        top: 60px;
+    }
+    .card
+    {
+        position: relative;
+        left: 6% !important;
+        width: 125px !important;
+        height: 135px !important;
+    }
+    .card-body img
+    {
+        position: relative;
+        top: 15px;
+        left: 30% !important;
+        width: 46px !important;
+    }
+    .card-body h2
+    {
+        position: relative;
+        left: 0% !important;
+        top: 25px !important;
+        font-size: 21px !important;
+    }
+    .section2_img
+      {
+          padding: 25px;
+          width: 100% !important;
+          margin-left: 0;
+      }
+      .subtitle
+      {
+          font-size: 30px !important;
+          font-weight: normal !important;
+          width: 100% !important;
+      }
+      .about-section
+      {
+        width: 100% !important;
+      }
+      .feature-boxes-container h1
+    {
+      line-height: 25px;
+    }
+    .feature-boxes-container h3
+    {
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      font-weight: 200;
+      font-size: 20px;
+    }
+    .custom_indicators
+    {
+      position: relative;
+      top: 20px;
+      display: inline-block;
+      width: 35% !important;
+    }
+    .custom_indicators_3
+    {
+      position: relative;
+      top: -24px;
+    }
+    .custom_indicators_2
+    {
+      position: relative;
+      top: -1px;
+    }
+    .feature-boxes-container h5
+    {
+      padding-top: 5px;
+      position: relative;
+      top: 15px;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1439px) {
+      .logo
+      {
+          position: absolute;
+          left: 5%;
+          display: block !important;
+      }
+      .section2_img
+      {
+          padding: 25px;
+          width: 75% !important;
+          margin-left: 120px;
+      }
+      .subtitle
+      {
+          font-size: 30px !important;
+          font-weight: normal !important;
+      }
+      .about-section
+      {
+        width: 115% !important;
+      }
+      .feature-boxes-container h3
+      {
+        font-size: 20px !important;
+      }
+
+}
+@media (min-width: 1440px) and (max-width: 1679px) {
+  .section2_img
+  {
+      padding: 25px;
+      width: 75% !important;
+      margin-left: 120px;
+  }
+  .subtitle
+  {
+      font-size: 30px !important;
+      font-weight: normal !important;
+  }
+  .about-section
+  {
+    width: 110% !important;
+  }
+  .feature-boxes-container h3
+      {
+        font-size: 20px !important;
+      }
+}
