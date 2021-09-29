@@ -1,3 +1,7 @@
+.page-wrapper
+{
+  overflow: hidden !important;
+}
 ul li a
 {
     color: white !important;
@@ -85,6 +89,10 @@ ul li a
   background-color: #083643 !important;
   color: #fff !important;
 }
+.feature-boxes-container
+{
+  border-bottom: 0px !important;
+}
 .feature-boxes-container h1
 {
   font-family: "Roboto Slab";
@@ -131,6 +139,137 @@ ul li a
 {
   position: relative;
   top: -26px;
+}
+.greenBox
+{
+  position: absolute;
+  margin-left: 35px;
+  background-image: url("../images/fluridra/post_title_box.png");
+  width: 209px;
+  height: 155px;
+}
+.greenBox h3
+{
+  margin-top: 15px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  padding: 5px;
+  text-align: left;
+  /* Text style for "I, nteger" */
+  font-style: normal
+}
+.greenBox a
+{
+  color: #083643;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  padding: 5px;
+  text-align: left;
+  text-decoration: underline;
+}
+.author-content
+{
+  position: relative;
+  left: 25px !important;
+}
+.author-content a
+{
+  color: gray !important;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  /* Text style for "0, 8/05/20" */
+  font-style: normal;
+}
+.author-content p
+{
+  margin-top: -15px;
+  width: 50% !important;
+  line-height: 24px !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+}
+.author_custom_div
+{
+  padding: 50px;
+  position: relative;
+  top: 45px;
+}
+.banner_img_custom
+{
+  width: 130% !important;
+  max-width: 130% !important;
+}
+.iphone_img
+{
+  position: relative;
+  left: 10%;
+  z-index: -1;
+}
+.last-section
+{
+  position: relative;
+  top: 100px;
+  padding: 6px;
+}
+.last-section h1
+{
+  color: #000000;
+  font-family: "Roboto Slab";
+  font-size: 35px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 40px;
+  text-align: left;
+  /* Text style for "Download n" */
+  font-style: normal;
+}
+.last-section h3
+{
+  color: #2a2d2e;
+  font-family: Roboto;
+  width: 75%;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 42px;
+  text-align: left;
+  /* Text style for "L, orem ip" */
+  font-style: normal;
+}
+.google_apple_img
+{
+  width: 20% !important;
+  margin-left: 10px !important;
+}
+.my-footer
+{
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 145px;
+  background-color: #083643;
+  margin-top: -150px !important;
+  z-index: 1;
+}
+.my-footer-content
+{
+  margin-left: 150px !important;
 }
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -299,6 +438,100 @@ ul li a
       position: relative;
       top: 15px;
     }
+    .greenBox
+    {
+      position: absolute;
+      margin-left: 35px;
+      width: 129px;
+      height: 135px;
+    }
+    .greenBox h3
+    {
+      margin-top: 5px;
+      font-size: 15px;
+      line-height: 24px;
+      padding: 5px;
+    }
+    .greenBox a
+    {
+      font-size: 10px;
+      padding: 5px;
+    }
+    .forest_img
+      {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+      }
+      .author-content
+      {
+        position: relative;
+        left: 15px !important;
+      }
+      .author-content a
+      {
+        font-size: 10px;
+        line-height: 24px;
+      }
+      .author-content p
+      {
+        margin-top: -15px;
+        width: 100% !important;
+        line-height: 24px !important;
+        color: #000 !important;
+        font-size: 15px !important;
+      }
+      .author_custom_div
+      {
+        padding: 55px;
+        position: relative;
+        top: 15px;
+      }
+      .banner_img_custom
+      {
+        width: 125% !important;
+        max-width: 125% !important;
+      }
+      .iphone_img
+      {
+        position: relative;
+        left: 1%;
+      }
+      .last-section
+      {
+        position: relative;
+        top: 0px;
+        padding: 0px;
+        width: 100% !important;
+      }
+      .last-section h1
+      {
+        text-align: center;
+        font-size: 35px;
+        line-height: 40px;
+      }
+      .last-section h3
+      {
+        text-align: center;
+        width: 100% !important;
+        font-size: 20px;
+        line-height: 42px;
+      }
+      .google_apple_img
+      {
+        width: 50% !important;
+        margin-left: 0 !important;
+        padding-bottom: 25px;
+      }
+      .my-footer
+      {
+        height: 145px;
+        margin-top: -130px !important;
+      }
+      .my-footer-content
+      {
+        margin-left: 0 !important;
+      }
 }
 @media (min-width: 1280px) and (max-width: 1439px) {
       .logo
@@ -326,7 +559,54 @@ ul li a
       {
         font-size: 20px !important;
       }
-
+      .forest_img
+      {
+        width: 130% !important;
+        max-width: 130% !important;
+        margin-left: -30px !important;
+      }
+      .author-content
+      {
+        position: relative;
+        left: 15px !important;
+      }
+      .author-content a
+      {
+        font-size: 10px;
+        line-height: 24px;
+      }
+      .author-content p
+      {
+        margin-top: -15px;
+        width: 75% !important;
+        line-height: 24px !important;
+        color: #000 !important;
+        font-size: 15px !important;
+      }
+      .author_custom_div
+      {
+        padding: 55px;
+        position: relative;
+        top: 15px;
+      }
+      .banner_img_custom
+      {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+      .my-footer-content
+      {
+        margin-left: 130px !important;
+      }
+      .my-footer
+      {
+        height: 145px;
+        margin-top: -130px !important;
+      }
+      .my-footer-content
+      {
+        margin-left: 130px !important;
+      }
 }
 @media (min-width: 1440px) and (max-width: 1679px) {
   .section2_img
@@ -347,5 +627,49 @@ ul li a
   .feature-boxes-container h3
       {
         font-size: 20px !important;
+      }
+      .forest_img
+      {
+        width: 130% !important;
+        max-width: 130% !important;
+        margin-left: -30px !important;
+      }
+      .author-content
+      {
+        position: relative;
+        left: 25px !important;
+      }
+      .author-content a
+      {
+        font-size: 10px;
+        line-height: 24px;
+      }
+      .author-content p
+      {
+        margin-top: -15px;
+        width: 75% !important;
+        line-height: 24px !important;
+        color: #000 !important;
+        font-size: 15px !important;
+      }
+      .author_custom_div
+      {
+        padding: 55px;
+        position: relative;
+        top: 25px;
+      }
+      .banner_img_custom
+      {
+        width: 110% !important;
+        max-width: 110% !important;
+      }
+      .my-footer
+      {
+        height: 145px;
+        margin-top: -130px !important;
+      }
+      .my-footer-content
+      {
+        margin-left: 130px !important;
       }
 }

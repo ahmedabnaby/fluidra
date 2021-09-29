@@ -138,221 +138,73 @@ Phasellus congue metus vel lorem faucibus, eget vulputate elit iaculis.</h5>
                 </div>
                 </Carousel>
       </div>
-      <div className="products-bottom appear-animate">
-        <div className="title-group text-center m-b-4 mt-4 p-t-3">
-          <h2 className="section-title text-uppercase ls-n-10">Featured Products</h2>
+      
+
+      <div className="half-section">
+      <div className="d-flex flex-wrap">
+ 
+        <div className="col-md-6 col-12 half-content appear-animate" data-animation-delay={1200} data-animation-duration={1200} data-animation-name="fadeIn">
+          <div className="greenBox">
+            <h3>Integer porttitor, metus eu auctor consectetur </h3>
+            <a href="#">Read More</a>
+          </div>
+            <img src="assets/images/fluridra/bg1.png" className="forest_img" />
+        </div>{/* End .col-md-6 */}
+        <div className="col-md-6 col-12 order-md-last half-img banner banner-md-vw-small align-items-center appear-animate author_custom_div" data-animation-duration={1200} data-animation-name="blurIn">
+          <div className="post-author">
+            <figure>
+              <a href="#">
+                <img src="assets/images/fluridra/blog1.png" className="banner_img_custom" alt="author" />
+              </a>
+            </figure>
+            <div className="author-content">
+              <h5 className="lead"><a href="#">08/05/2017</a></h5>
+              <p>Integer porttitor, metus eu auctor consectetur</p>
+            </div>{/* End .author.content */}
+          </div>{/* End .post-author */}
+          <div className="post-author">
+            <figure>
+              <a href="#">
+                <img src="assets/images/fluridra/blog2.png" className="banner_img_custom" alt="author" />
+              </a>
+            </figure>
+            <div className="author-content">
+              <h5 className="lead"><a href="#">08/05/2017</a></h5>
+              <p>Integer porttitor, metus eu auctor consectetur</p>
+            </div>{/* End .author.content */}
+          </div>{/* End .post-author */}
+          <div className="post-author">
+            <figure>
+              <a href="#">
+                <img src="assets/images/fluridra/blog3.png" className="banner_img_custom" alt="author" />
+              </a>
+            </figure>
+            <div className="author-content">
+              <h5 className="lead"><a href="#">08/05/2017</a></h5>
+              <p>Integer porttitor, metus eu auctor consectetur</p>
+            </div>{/* End .author.content */}
+          </div>{/* End .post-author */}
+        </div>{/* End .col-md-6 */}
+      </div>{/* End .no-gutters */}
+    </div>{/* End .half-section */}
+
+    <div className="half-section">
+      <div className="d-flex flex-wrap">
+        <div className="col-md-6 col-12 order-last order-xl-first half-content appear-animate iphone_img" data-animation-delay={1200} data-animation-duration={1200} data-animation-name="fadeIn">
+            <img src="assets/images/fluridra/iphone.png" role="iphone"/>
         </div>
-        <div className="featured-products owl-carousel owl-theme" data-owl-options="{
-                  'dots': false,
-                  'margin': 20,
-                  'responsive' : {
-                      '992' : {
-                          'items' : 4
-                      },
-                      '1200': {
-                          'items':5
-                      }
-                  }
-              }">
-          <div className="product-default inner-quickview inner-icon">
-            <figure>
-              <a href="product.html">
-                <img src="assets/images/products/product-5.jpg" width={400} height={400} alt="product" />
-                <img src="assets/images/products/product-4.jpg" width={400} height={400} alt="product" />
-              </a>
-              <div className="btn-icon-group">
-                <button className="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i className="icon-bag" /></button>
-              </div>
-              <a href="ajax/product-quick-view.html" className="btn-quickview" title="Quick View">Quick View</a> 
-            </figure>
-            <div className="product-details">
-              <div className="category-wrap">
-                <div className="category-list">
-                  <a href="category.html" className="product-category">clothing</a>,
-                  <a href="category.html" className="product-category">trousers</a>
-                </div>
-                <a href="#" className="btn-icon-wish"><i className="icon-heart" /></a>
-              </div>
-              <h2 className="product-title">
-                <a href="product.html">Blue Jacket</a>
-              </h2>
-              <div className="ratings-container">
-                <div className="product-ratings">
-                  <span className="ratings" style={{width: '0%'}} />{/* End .ratings */}
-                  <span className="tooltiptext tooltip-top" />
-                </div>{/* End .product-ratings */}
-              </div>{/* End .product-container */}
-              <div className="price-box">
-                <span className="product-price">$149.00</span>
-              </div>{/* End .price-box */}
-            </div>{/* End .product-details */}
+        <div className="col-md-6 col-12 half-img banner banner-md-vw-small align-items-center appear-animate" data-animation-duration={1200} data-animation-name="blurIn">
+          <div className="last-section text-left">
+            <h1>Download Now</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur laoreet semper finibus. Proin cursus porta ipsum, id euismod eros consequat vitae. Donec rutrum risus augue, consequat eleifend ipsum faucibus id.</h3>
+            <div className="row">
+            <img src="assets/images/fluridra/google.png" className="google_apple_img" role="iphone"/>
+            <img src="assets/images/fluridra/apple.png" className="google_apple_img" role="iphone"/>
+            </div>
           </div>
-          <div className="product-default inner-quickview inner-icon">
-            <figure>
-              <a href="product.html">
-                <img src="assets/images/products/product-6.jpg" width={400} height={400} alt="product" />
-                <img src="assets/images/products/product-3.jpg" width={400} height={400} alt="product" />
-              </a>
-              <div className="btn-icon-group">
-                <button className="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i className="icon-bag" /></button>
-              </div>
-              <a href="ajax/product-quick-view.html" className="btn-quickview" title="Quick View">Quick View</a> 
-            </figure>
-            <div className="product-details">
-              <div className="category-wrap">
-                <div className="category-list">
-                  <a href="category.html" className="product-category">headphone</a>,
-                  <a href="category.html" className="product-category">trousers</a>
-                </div>
-                <a href="#" className="btn-icon-wish"><i className="icon-heart" /></a>
-              </div>
-              <h2 className="product-title">
-                <a href="product.html">Product Red Bag</a>
-              </h2>
-              <div className="ratings-container">
-                <div className="product-ratings">
-                  <span className="ratings" style={{width: '0%'}} />{/* End .ratings */}
-                  <span className="tooltiptext tooltip-top" />
-                </div>{/* End .product-ratings */}
-              </div>{/* End .product-container */}
-              <div className="price-box">
-                <span className="product-price">$101.00</span>
-              </div>{/* End .price-box */}
-            </div>{/* End .product-details */}
-          </div>
-          <div className="product-default inner-quickview inner-icon">
-            <figure>
-              <a href="product.html">
-                <img src="assets/images/products/product-7.jpg" width={400} height={400} alt="product" />
-                <img src="assets/images/products/product-2.jpg" width={400} height={400} alt="product" />
-              </a>
-              <div className="btn-icon-group">
-                <button className="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i className="icon-bag" /></button>
-              </div>
-              <a href="ajax/product-quick-view.html" className="btn-quickview" title="Quick View">Quick View</a> 
-            </figure>
-            <div className="product-details">
-              <div className="category-wrap">
-                <div className="category-list">
-                  <a href="category.html" className="product-category">headphone</a>,
-                  <a href="category.html" className="product-category">trousers</a>
-                </div>
-                <a href="#" className="btn-icon-wish"><i className="icon-heart" /></a>
-              </div>
-              <h2 className="product-title">
-                <a href="product.html">Product Black Bag</a>
-              </h2>
-              <div className="ratings-container">
-                <div className="product-ratings">
-                  <span className="ratings" style={{width: '0%'}} />{/* End .ratings */}
-                  <span className="tooltiptext tooltip-top" />
-                </div>{/* End .product-ratings */}
-              </div>{/* End .product-container */}
-              <div className="price-box">
-                <span className="product-price">$99.00 – $109.00</span>
-              </div>{/* End .price-box */}
-            </div>{/* End .product-details */}
-          </div>   
-          <div className="product-default inner-quickview inner-icon">
-            <figure>
-              <a href="product.html">
-                <img src="assets/images/products/product-8.jpg" width={400} height={400} alt="product" />
-                <img src="assets/images/products/product-4.jpg" width={400} height={400} alt="product" />
-              </a>
-              <div className="btn-icon-group">
-                <button className="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i className="icon-bag" /></button>
-              </div>
-              <a href="ajax/product-quick-view.html" className="btn-quickview" title="Quick View">Quick View</a> 
-            </figure>
-            <div className="product-details">
-              <div className="category-wrap">
-                <div className="category-list">
-                  <a href="category.html" className="product-category">clothing</a>,
-                  <a href="category.html" className="product-category">t-shirts</a>
-                </div>
-                <a href="#" className="btn-icon-wish"><i className="icon-heart" /></a>
-              </div>
-              <h2 className="product-title">
-                <a href="product.html">Summer T-Shirt</a>
-              </h2>
-              <div className="ratings-container">
-                <div className="product-ratings">
-                  <span className="ratings" style={{width: '0%'}} />{/* End .ratings */}
-                  <span className="tooltiptext tooltip-top" />
-                </div>{/* End .product-ratings */}
-              </div>{/* End .product-container */}
-              <div className="price-box">
-                <span className="product-price">$209.00 – $259.00</span>
-              </div>{/* End .price-box */}
-            </div>{/* End .product-details */}
-          </div>
-          <div className="product-default inner-quickview inner-icon">
-            <figure>
-              <a href="product.html">
-                <img src="assets/images/products/product-9.jpg" width={400} height={400} alt="product" />
-                <img src="assets/images/products/product-1.jpg" width={400} height={400} alt="product" />
-              </a>
-              <div className="btn-icon-group">
-                <button className="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i className="icon-bag" /></button>
-              </div>
-              <a href="ajax/product-quick-view.html" className="btn-quickview" title="Quick View">Quick View</a> 
-            </figure>
-            <div className="product-details">
-              <div className="category-wrap">
-                <div className="category-list">
-                  <a href="category.html" className="product-category">caps</a>,
-                  <a href="category.html" className="product-category">shoes</a>
-                </div>
-                <a href="#" className="btn-icon-wish"><i className="icon-heart" /></a>
-              </div>
-              <h2 className="product-title">
-                <a href="product.html">Men Black jacket</a>
-              </h2>
-              <div className="ratings-container">
-                <div className="product-ratings">
-                  <span className="ratings" style={{width: '0%'}} />{/* End .ratings */}
-                  <span className="tooltiptext tooltip-top" />
-                </div>{/* End .product-ratings */}
-              </div>{/* End .product-container */}
-              <div className="price-box">
-                <span className="product-price">$101.00</span>
-              </div>{/* End .price-box */}
-            </div>{/* End .product-details */}
-          </div>
-          <div className="product-default inner-quickview inner-icon">
-            <figure>
-              <a href="product.html">
-                <img src="assets/images/products/product-10.jpg" width={400} height={400} alt="product" />
-                <img src="assets/images/products/product-4.jpg" width={400} height={400} alt="product" />
-              </a>
-              <div className="btn-icon-group">
-                <button className="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i className="icon-bag" /></button>
-              </div>
-              <a href="ajax/product-quick-view.html" className="btn-quickview" title="Quick View">Quick View</a> 
-            </figure>
-            <div className="product-details">
-              <div className="category-wrap">
-                <div className="category-list">
-                  <a href="category.html" className="product-category">caps</a>,
-                  <a href="category.html" className="product-category">shoes</a>
-                </div>
-                <a href="#" className="btn-icon-wish"><i className="icon-heart" /></a>
-              </div>
-              <h2 className="product-title">
-                <a href="product.html">Porto Sport Shirts</a>
-              </h2>
-              <div className="ratings-container">
-                <div className="product-ratings">
-                  <span className="ratings" style={{width: '0%'}} />{/* End .ratings */}
-                  <span className="tooltiptext tooltip-top" />
-                </div>{/* End .product-ratings */}
-              </div>{/* End .product-container */}
-              <div className="price-box">
-                <span className="product-price">$101.00</span>
-              </div>{/* End .price-box */}
-            </div>{/* End .product-details */}
-          </div>                                      
-        </div>{/* End .featured-products */}
+        </div>
+      </div>
+        
       </div>
     </div>{/* End .container-fluid */}
   </main>

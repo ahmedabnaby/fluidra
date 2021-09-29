@@ -11,6 +11,7 @@ function Homepage() {
 <div className="page-wrapper">
         <Navbar/>
         <Main/>
+        <div className="clearfix"></div>
         <Footer/>
 </div>
   <div className="mobile-menu-overlay" />{/* End .mobil-menu-overlay */}
