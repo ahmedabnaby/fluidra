@@ -1,3 +1,7 @@
+html
+{
+  scroll-behavior: smooth;
+}
 .page-wrapper
 {
   overflow: hidden !important;
@@ -531,6 +535,11 @@ ul li a
       .my-footer-content
       {
         margin-left: 0 !important;
+      }
+      .update_div
+      {
+        position: relative;
+        left: 80px !important;
       }
 }
 @media (min-width: 1280px) and (max-width: 1439px) {

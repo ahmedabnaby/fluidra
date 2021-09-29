@@ -54,7 +54,8 @@ class Navbar extends Component {
               <Menu customBurgerIcon={<img src="assets/images/fluridra/menu.png"/>}>
                 <a href="/" className="menu-item">Home</a>
                 <a href="/" className="menu-item">About</a>
-                <a href="/" className="menu-item">Contact</a>
+                <a href="/" className="menu-item">Services</a>
+                <a href="/" className="menu-item">Portfolio</a>
               </Menu>
               </a>
               </li>

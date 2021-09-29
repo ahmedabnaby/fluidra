@@ -2483,7 +2483,11 @@ var Navbar = /*#__PURE__*/function (_Component) {
                           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
                             href: "/",
                             className: "menu-item",
-                            children: "Contact"
+                            children: "Services"
+                          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                            href: "/",
+                            className: "menu-item",
+                            children: "Portfolio"
                           })]
                         })
                       })
@@ -2688,10 +2692,10 @@ function Main() {
               children: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
               children: "Nullam quis dui ut ante sodales volutpat. Pellentesque pulvinar hendrerit libero, sit amet tristique metus vestibulum sit amet. Sed quam enim, aliquam malesuada eleifend quis, cursus eget ante. In tempor nibh purus, at hendrerit nibh faucibus vel. Sed sollicitudin lacus tellus, a dictum tellus cursus non."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("input", {
-              type: "submit",
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("a", {
+              href: "#lorem",
               className: "btn btn-custom",
-              value: "See More"
+              children: "See More"
             })]
           })
         })]
@@ -2700,6 +2704,7 @@ function Main() {
       className: "container-fluid m-b-5 p-b-3",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
         className: "feature-boxes-container text-center",
+        id: "lorem",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h1", {
           children: "Lorem ipsum dolor sit amet"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h3", {
@@ -2878,7 +2883,7 @@ function Main() {
                   })]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(reactjs_popup__WEBPACK_IMPORTED_MODULE_3__["default"], {
                   trigger: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("button", {
-                    className: "btn btn-sm btn-custom ml-5 p-3",
+                    className: "btn btn-sm btn-custom ml-5 p-3 update_div",
                     children: " Update contents"
                   }),
                   position: "center",

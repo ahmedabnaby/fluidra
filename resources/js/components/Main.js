@@ -78,13 +78,13 @@ Phasellus congue metus vel lorem faucibus, eget vulputate elit iaculis.</h5>
 					<h2 className="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 					<p>Nullam quis dui ut ante sodales volutpat. Pellentesque pulvinar hendrerit libero, sit amet tristique metus vestibulum sit amet. Sed quam enim, aliquam malesuada eleifend quis, cursus eget ante. In tempor nibh purus, at hendrerit nibh faucibus vel. Sed sollicitudin lacus tellus, a dictum tellus cursus non.</p>
-          <input type="submit" className="btn btn-custom" value="See More"/>
+          <a href="#lorem" className="btn btn-custom">See More</a>
 			</div>
         </div>{/* End .col-md-6 */}
       </div>{/* End .no-gutters */}
     </div>{/* End .half-section */}
     <div className="container-fluid m-b-5 p-b-3">
-      <div className="feature-boxes-container text-center">
+      <div className="feature-boxes-container text-center" id="lorem">
         <h1>Lorem ipsum dolor sit amet</h1>
         <h3>Proin bibendum placerat libero a porttitor. Donec vestibulum at augue venenatis aliquam. Donec dolor elit, lacinia nec purus eget, fringilla fringilla massa. Donec dapibus pulvinar posuere. Ut at est nulla.</h3>
       <Carousel showStatus={false} showThumbs={false} renderIndicator={(clickHandler, isSelected,i) =>
@@ -171,7 +171,7 @@ Phasellus congue metus vel lorem faucibus, eget vulputate elit iaculis.</h5>
               <h5 className="lead">{row.date}</h5>
               <p>{row.text}</p>
             </div>{/* End .author.content */}
-          <Popup trigger={<button className="btn btn-sm btn-custom ml-5 p-3"> Update contents</button>} position="center">
+          <Popup trigger={<button className="btn btn-sm btn-custom ml-5 p-3 update_div"> Update contents</button>} position="center">
             <div className="p-5">
             {/* <form action={"/blogs/update/"+row.id} method="get"> */}
             <form action={"/updates/"+row.id}>
