@@ -13,4 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'App\Http\Controllers\PagesController@layout')->name('home');
+Route::get('/updates/{id}', 'App\Http\Controllers\BlogController@updates');
+Route::get('/{path?}', function () {
+    return view('welcome');
+})->where('path','.*');
+// Route::get('/', 'App\Http\Controllers\PagesController@layout')->name('home');

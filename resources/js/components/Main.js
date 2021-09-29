@@ -1,9 +1,20 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import axios from 'axios';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 function Main() {
+  const [data , setData] = useState([])
+  useEffect(()=>{
+      axios.get('/api/blogs')
+      .then(response=>{
+          setData(response.data);
+      });
+  }, []);
+  
     return (
         
 <main className="main">
@@ -151,39 +162,38 @@ Phasellus congue metus vel lorem faucibus, eget vulputate elit iaculis.</h5>
             <img src="assets/images/fluridra/bg1.png" className="forest_img" />
         </div>{/* End .col-md-6 */}
         <div className="col-md-6 col-12 order-md-last half-img banner banner-md-vw-small align-items-center appear-animate author_custom_div" data-animation-duration={1200} data-animation-name="blurIn">
-          <div className="post-author">
+        {data.map(row=>(
+          <div className="post-author" key={row.id}>
             <figure>
-              <a href="#">
-                <img src="assets/images/fluridra/blog1.png" className="banner_img_custom" alt="author" />
-              </a>
+                <img src={"assets/images/fluridra/"+row.image} className="banner_img_custom" alt="author" />
             </figure>
             <div className="author-content">
-              <h5 className="lead"><a href="#">08/05/2017</a></h5>
-              <p>Integer porttitor, metus eu auctor consectetur</p>
+              <h5 className="lead">{row.date}</h5>
+              <p>{row.text}</p>
             </div>{/* End .author.content */}
-          </div>{/* End .post-author */}
-          <div className="post-author">
-            <figure>
-              <a href="#">
-                <img src="assets/images/fluridra/blog2.png" className="banner_img_custom" alt="author" />
-              </a>
-            </figure>
-            <div className="author-content">
-              <h5 className="lead"><a href="#">08/05/2017</a></h5>
-              <p>Integer porttitor, metus eu auctor consectetur</p>
-            </div>{/* End .author.content */}
-          </div>{/* End .post-author */}
-          <div className="post-author">
-            <figure>
-              <a href="#">
-                <img src="assets/images/fluridra/blog3.png" className="banner_img_custom" alt="author" />
-              </a>
-            </figure>
-            <div className="author-content">
-              <h5 className="lead"><a href="#">08/05/2017</a></h5>
-              <p>Integer porttitor, metus eu auctor consectetur</p>
-            </div>{/* End .author.content */}
-          </div>{/* End .post-author */}
+          <Popup trigger={<button className="btn btn-sm btn-custom ml-5 p-3"> Update contents</button>} position="center">
+            <div className="p-5">
+            {/* <form action={"/blogs/update/"+row.id} method="get"> */}
+            <form action={"/updates/"+row.id}>
+							<div className="form-group required-field">
+								<label htmlFor="contact-name">Text</label>
+								<input type="text" className="form-control" name="text" required/>
+							</div>
+
+							<div className="form-group required-field">
+								<label htmlFor="contact-email">Date</label>
+								<input type="date" className="form-control" name="date" required/>
+							</div>
+
+							<div className="form-footer">
+								<button type="submit" className="btn btn-primary">Submit</button>
+							</div>
+						</form>
+            </div>
+          </Popup>
+          </div>
+             ))} 
+
         </div>{/* End .col-md-6 */}
       </div>{/* End .no-gutters */}
     </div>{/* End .half-section */}
