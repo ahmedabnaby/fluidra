@@ -26,10 +26,12 @@ function Main() {
         <div className="home-slide home-slide-1 banner banner-h-100 banner-md-vw-small">
           <img className="slide-bg owl-lazy h-100" src="assets/images/fluridra/bg_img.gif" data-src="assets/images/fluridra/bg_img.gif" />{/* End .slide-bg */}
           <div className="banner-layer banner-layer-middle text-center">
-            <h3 className="text-center m-b-1 text-uppercase appear-animate" data-animation-delay={800} data-animation-duration={1200} data-animation-name="blurIn">Lorem ipsum dolor sit amet</h3>
+            <div className="banner_text_padding">
+            <h3 className="text-center  m-b-1 text-uppercase appear-animate" data-animation-delay={800} data-animation-duration={1200} data-animation-name="blurIn">Lorem ipsum dolor sit amet</h3>
             <h5 className="d-inline-block m-r-3 text-left text-uppercase appear-animate" data-animation-delay={2200} data-animation-duration={1200} data-animation-name="fadeIn">Proin bibendum placerat libero a porttitor. Donec vestibulum at augue venenatis aliquam. Donec dolor elit, lacinia nec purus eget, fringilla fringilla massa. <br/>
 
 Phasellus congue metus vel lorem faucibus, eget vulputate elit iaculis.</h5>
+</div>
             <div className="row">
               <div className="col appear-animate" data-animation-delay={2200} data-animation-duration={1200} data-animation-name="fadeIn">
                 <div className="card card_custom_margin text-center">

@@ -345,7 +345,209 @@ ul li a
     background: rgba(0, 0, 0, 0.3);
     left: 0;
   }
-@media screen and (max-width:767px)
+@media screen and (max-width:345px)
+{
+  ul li a
+    {
+        font-size: 12px !important;
+    }
+    .banner-layer h3
+    {
+        position: relative;
+        top: 0px;
+        font-size: 15px !important;
+        margin-top: -35px;
+    }
+    .banner-layer h5
+    {
+        position: relative;
+        top: 15px;
+        font-size: 10px !important;
+        width: 100%;
+    }
+    .banner_text_padding
+    {
+      padding-top: 125px;
+    }
+    .card_custom_margin
+    {
+        position: relative;
+        top: 5px;
+    }
+    .card
+    {
+        position: relative;
+        left: 6% !important;
+        width: 125px !important;
+        height: 135px !important;
+    }
+    .card-body img
+    {
+        position: relative;
+        top: 15px;
+        left: 30% !important;
+        width: 46px !important;
+    }
+    .card-body h2
+    {
+        position: relative;
+        left: 0% !important;
+        top: 25px !important;
+        font-size: 21px !important;
+    }
+    .section2_img
+      {
+          padding: 25px;
+          width: 100% !important;
+          margin-left: 0;
+      }
+      .subtitle
+      {
+          font-size: 30px !important;
+          font-weight: normal !important;
+          width: 100% !important;
+      }
+      .about-section
+      {
+        width: 100% !important;
+      }
+      .feature-boxes-container h1
+    {
+      line-height: 25px;
+    }
+    .feature-boxes-container h3
+    {
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      font-weight: 200;
+      font-size: 20px;
+    }
+    .custom_indicators
+    {
+      position: relative;
+      top: 20px;
+      display: inline-block;
+      width: 35% !important;  
+    }
+    .custom_indicators_3
+    {
+      position: relative;
+      top: -24px;
+    }
+    .custom_indicators_2
+    {
+      position: relative;
+      top: -1px;
+    }
+    .feature-boxes-container h5
+    {
+      padding-top: 5px;
+      position: relative;
+      top: 15px;
+    }
+    .greenBox
+    {
+      position: absolute;
+      margin-left: 35px;
+      width: 129px;
+      height: 135px;
+    }
+    .greenBox h3
+    {
+      margin-top: 5px;
+      font-size: 15px;
+      line-height: 24px;
+      padding: 5px;
+    }
+    .greenBox a
+    {
+      font-size: 10px;
+      padding: 5px;
+    }
+    .forest_img
+      {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+      }
+      .author-content
+      {
+        position: relative;
+        left: 15px !important;
+      }
+      .author-content a
+      {
+        font-size: 10px;
+        line-height: 24px;
+      }
+      .author-content p
+      {
+        margin-top: -15px;
+        width: 100% !important;
+        line-height: 24px !important;
+        color: #000 !important;
+        font-size: 15px !important;
+      }
+      .author_custom_div
+      {
+        padding: 55px;
+        position: relative;
+        top: 15px;
+      }
+      .banner_img_custom
+      {
+        width: 125% !important;
+        max-width: 125% !important;
+      }
+      .iphone_img
+      {
+        position: relative;
+        left: 1%;
+      }
+      .last-section
+      {
+        position: relative;
+        top: 0px;
+        padding: 0px;
+        width: 100% !important;
+      }
+      .last-section h1
+      {
+        text-align: center;
+        font-size: 35px;
+        line-height: 40px;
+      }
+      .last-section h3
+      {
+        text-align: center;
+        width: 100% !important;
+        font-size: 20px;
+        line-height: 42px;
+      }
+      .google_apple_img
+      {
+        width: 50% !important;
+        margin-left: 0 !important;
+        padding-bottom: 25px;
+      }
+      .my-footer
+      {
+        height: 145px;
+        margin-top: -130px !important;
+      }
+      .my-footer-content
+      {
+        margin-left: 0 !important;
+      }
+      .update_div
+      {
+        position: relative;
+        left: 80px !important;
+      }
+}
+@media (min-width:346px) and (max-width:767px)
 {
     ul li a
     {
@@ -363,6 +565,10 @@ ul li a
         top: 15px;
         font-size: 18px !important;
         width: 90%;
+    }
+    .banner_text_padding
+    {
+      padding-top: 125px;
     }
     .card_custom_margin
     {
